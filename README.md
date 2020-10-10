@@ -1,8 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tech quiz!!
 
-## Available Scripts
+これは、2020/10/10に行われたTechStudyGroupの勉強会で作成したWEBアプリケーションです。
 
-In the project directory, you can run:
+
+
 
 ### `yarn start`
 
