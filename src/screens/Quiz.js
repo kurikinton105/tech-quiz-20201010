@@ -108,9 +108,10 @@ const Quiz = () => {
             <h5 className="container question">{quizzes?.question}</h5>
           </div>
           <div className="row">
-            {quizList?.map((choice, index) => {
+            {quizList?.map((choice, index) => { //JSです。mapはクイズリストからChoiceに再利用できるように変換している！！（めっちゃ大事！）
               return (
                 <Choice
+                  // propsという！
                   key={index}
                   choice={choice.choice}
                   isCorrect={choice.isCorrect}

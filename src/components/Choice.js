@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 const Choice = (props) => {
+  //分割代入！！（新しい機能らしい）
   const { choice, isCorrect, answered, updateAnswer, id } = props;
   const [checked, setChecked] = useState(false);
 
